@@ -8,7 +8,9 @@ section {
     padding: 20px;
     background-color: gray;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
   
   header h1 {
@@ -21,13 +23,15 @@ section {
   }
 
   header nav ul {
-    list-style-type: none;    
+    list-style-type: none;
+    display: inline-block;   
   }
 
   header nav ul li{
     display: inline-block;
-    margin-left: 25px;
-    margin-top: 75px;
+    
+    
+    
   }
 
   .content {
@@ -63,15 +67,11 @@ section {
     margin-top: 10px;
     
   }
-  #email {
-    background-color: goldenrod;
-  }
+  @media screen and (max-width: 768px) {
+    
+    .float-left{
+      float:none;
+    }
+    }
   
-  #github {
-    background-color: lightsteelblue
-  }
-  
-  #portfolio {
-    background-color: darkorange;
-  }
   
