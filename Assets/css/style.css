@@ -1,0 +1,77 @@
+section {
+    background-color: gray;
+    
+  }
+  
+  header {
+    color: black;
+    padding: 20px;
+    background-color: gray;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+  }
+  
+  header h1 {
+    display: inline-block;
+    font-size: 48px;
+  }
+  header nav {
+  float: right;
+  margin-right: 20px;
+  }
+
+  header nav ul {
+    list-style-type: none;    
+  }
+
+  header nav ul li{
+    display: inline-block;
+    margin-left: 25px;
+    margin-top: 75px;
+  }
+
+  .content {
+    display: inline-block;
+    margin-left: 20px;
+    
+  }
+
+  .raider {
+    height: 250px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 20px;
+    display: inline-block;  
+  }
+
+  h2 {
+    font-size: 50px;
+    margin-left: 25px;
+    margin-top: 25px;
+        
+  }
+  p {
+    font-size: 30px;
+  
+  }
+  ul{
+    font-size: 25px;
+  }
+  .float-left {
+    float: left;
+    margin-right: 25px;
+    height: 250px;
+    margin-top: 10px;
+    
+  }
+  #email {
+    background-color: goldenrod;
+  }
+  
+  #github {
+    background-color: lightsteelblue
+  }
+  
+  #portfolio {
+    background-color: darkorange;
+  }
+  
